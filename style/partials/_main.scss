@@ -1,0 +1,17 @@
+main {
+    @include border($ankademinGreen);
+
+
+    &:hover {
+        background: darkcyan;
+
+        * {
+            background: darkcyan;
+        }
+    }
+
+    p {
+        font-size: $h2pSize;
+        color: $ankademinCoral;
+    }
+}

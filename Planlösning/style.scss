@@ -1,0 +1,100 @@
+$bigRoomColor: gray;
+
+* {
+    background-color: lightpink;
+}
+
+
+.building {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    background: darkmagenta;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.hall {
+    height: 250px;
+    background: lightblue;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.tablerow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+
+.big {
+    height: 220px;
+    width: 220px;
+    background: $bigRoomColor;
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &:hover {
+        background-color: lightseagreen;
+    }
+
+}
+
+.medium {
+    height: 180px;
+    width: 180px;
+    background: green;
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    &:hover {
+        background-color: lightgreen;
+    }
+}
+
+.small {
+    height: 130px;
+    width: 130px;
+    background: olive;
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    &:hover {
+        background-color: lightcoral;
+    }
+}
+
+.table {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.teacherTable {
+    width: 50px;
+    height: 25px;
+    background: black;
+    border-radius: 20%;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}

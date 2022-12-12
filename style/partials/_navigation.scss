@@ -1,0 +1,17 @@
+nav {
+    ul {
+        color: yellow;
+        list-style-type: none;
+        font-weight: bold;
+        //@include flex(row, space-around, center); 
+        //@include flex();
+        @include flex($justify: space-around); //change only some value from the variable
+
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
+}

@@ -1,0 +1,16 @@
+header {
+    @include border(red);
+
+    p {
+        font-size: $h1pSize;
+        color: $ankademinGreen;
+    }
+
+    &:hover {
+        background: darkgray;
+
+        * {
+            background: darkgray;
+        }
+    }
+}
